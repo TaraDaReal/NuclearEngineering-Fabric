@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tarane",
+  "version": "${version}",
+  "name": "Nuclear Engineering",
+  "description": "A mod focused on nuclear engineering and nuclear fusion to automate resource production and possibly destroy the world",
+  "authors": [
+    "TaraDaReal"
+  ],
+  "contact": {
+    "repo": "https://github.com/TaraDaReal/NuclearEngineering-Fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/tarane/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.tarane.client.NuclearEngineeringClient"
+    ],
+    "main": [
+      "io.github.tarane.NuclearEngineering"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
